@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="gading">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joove Report - Tentang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="brand">Joove<span> </span>Report</a>
+    <nav class="nav" aria-label="Navigasi utama">
+      <a href="index.html">Beranda</a>
+      <a href="tugas.html">Daftar Tugas</a>
+      <a href="tentang.html" class="active" aria-current="page">Tentang</a>
+    </nav>
+  </header>
+
+  <div class="theme-picker" role="group" aria-label="Pilih mode tampilan">
+    <button type="button" data-set="gading" aria-label="Light mode" aria-pressed="false" title="Light mode">
+      <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+    </button>
+    <button type="button" data-set="malam" aria-label="Night mode" aria-pressed="false" title="Night mode">
+      <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5 8.5 8.5 0 1 0 20.5 14.5Z"></path></svg>
+    </button>
+  </div>
+
+  <main>
+    <section class="about-hero">
+      <!-- Avatar inisial. Untuk memakai foto asli, simpan foto ke images/
+           lalu ganti div ini dengan:
+           <img class="avatar" src="images/foto-profil.png" alt="Foto Jov"> -->
+      <div class="avatar" aria-hidden="true">J</div>
+
+      <div class="about-text">
+        <p class="hero-note">Tentang saya</p>
+        <h1>Halo, saya Joove Mortimer Ssenyonga</h1>
+        <p class="lead">Mahasiswa Informatika yang memiliki ketertarikan pada teknologi, pemrograman, dan Jaringan Komputer.</p>
+      </div>
+    </section>
+
+    <section class="about-grid">
+      <article class="panel">
+        <h2>Profil singkat</h2>
+        <dl class="facts">
+          <div><dt>Kampus</dt><dd>UPN Veteran Yogyakarta</dd></div>
+          <div><dt>Program studi</dt><dd>Informatika</dd></div>
+          <div><dt>Semester</dt><dd>3</dd></div>
+          <div><dt>Minat</dt><dd>Jaringan komputer <br> Pemrogaman Web </dd></div>
+        </dl>
+      </article>
+
+      <article class="panel">
+        <h2>Tentang website ini</h2>
+        <p>Website ini dibuat untuk mengumpulkan tugas/project kuliah di satu tempat, sekaligus sebagai latihan menulis HTML, CSS, dan JavaScript.</p>
+      </article>
+    </section>
+
+    <!-- <section class="section">
+      <h2>Keahlian</h2>
+      <ul class="chips">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>[Keahlian lain]</li>
+        <li>[Keahlian lain]</li>
+      </ul>
+    </section> -->
+
+    <section class="section contact" id="kontak">
+      <h2>Kontak</h2>
+      <p class="leadkon">Ada pertanyaan atau ingin berdiskusi tentang tugas/project ini? Hubungi lewat:</p>
+      <ul class="contact-list">
+        <li><span>Email</span><a class="link" href="mailto:Mortimerssenyonga06@gmail.com">Mortimerssenyonga06@gmail.com</a></li>
+        <li><span>Instagram</span><a class="link" href="https://www.instagram.com/jov.exy">@jov.exy</a></li>
+        <li><span>GitHub</span><a class="link" href="https://github.com/Jooopee">github.com/Jooopee</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Joove Mortimer Ssenyonga.</p>
+  </footer>
+
+  <script src="js/theme.js"></script>
+</body>
+</html>

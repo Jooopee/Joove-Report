@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="gading">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joove Report - Daftar Tugas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header Halaman + NavBar -->
+  <header class="site-header">
+    <a href="index.html" class="brand">Joove<span> </span>Report</a>
+    <nav class="nav" aria-label="Navigasi utama">
+      <a href="index.html">Beranda</a>
+      <a href="tugas.html" class="active" aria-current="page">Daftar Tugas</a>
+      <a href="tentang.html">Tentang</a>
+    </nav>
+  </header>
+
+  <div class="theme-picker" role="group" aria-label="Pilih mode tampilan">
+    <button type="button" data-set="gading" aria-label="Light mode" aria-pressed="false" title="Light mode">
+      <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+    </button>
+    <button type="button" data-set="malam" aria-label="Night mode" aria-pressed="false" title="Night mode">
+      <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5 8.5 8.5 0 1 0 20.5 14.5Z"></path></svg>
+    </button>
+  </div>
+
+  <main>
+    <section class="page-intro">
+      <!-- note atas halaman: -->
+      <!-- <p class="hero-note">Semua pekerjaan, satu daftar</p> -->
+      <h1>Daftar Tugas</h1>
+      <p class="lead">Kumpulan tugas/project kuliah yang sudah dan sedang kukerjakan.</p>
+    </section>
+
+    <!-- Daftar singkat semua tugas. Tambah <li> baru untuk tugas berikutnya,
+         arahkan href ke file di folder tugas/ atau ke bagian di halaman ini (#id). -->
+    <section class="task-list">
+      <h2>Semua tugas</h2>
+      <ul class="task-index">
+        <li>
+          <a href="tugas/prototipe-produk.html">
+            <span>Prototipe Produk</span>
+            <em class="tag tag-prog">Dikerjakan</em>
+          </a>
+        </li>
+        <!-- <li>
+          <a href="tugas/struktur-data.html">
+            <span>Struktur Data</span>
+            <em class="tag tag-done">Selesai</em>
+          </a>
+        </li>
+        <li>
+          <a href="tugas/riset-jurnal.html">
+            <span>Riset Jurnal</span>
+            <em class="tag tag-prog">Dikerjakan</em>
+          </a>
+        </li> -->
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Joove Mortimer Ssenyonga.</p>
+  </footer>
+
+  <script src="js/theme.js"></script>
+</body>
+</html>

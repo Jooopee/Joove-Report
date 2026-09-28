@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="gading">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joove Report - Beranda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header Halaman + NavBar -->
+  <header class="site-header">
+    <a href="index.html" class="brand">Joove<span> </span>Report</a>
+    <nav class="nav" aria-label="Navigasi utama">
+      <a href="index.html" class="active" aria-current="page">Beranda</a>
+      <a href="tugas.html">Daftar Tugas</a>
+      <a href="tentang.html">Tentang</a>
+    </nav>
+  </header>
+
+  <!-- Hover light mode & dark mode -->
+  <div class="theme-picker" role="group" aria-label="Pilih mode tampilan">
+    <button type="button" data-set="gading" class="is-on" aria-label="Light mode" aria-pressed="true" title="Light mode">
+      <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+    </button>
+    <button type="button" data-set="malam" aria-label="Night mode" aria-pressed="false" title="Night mode">
+      <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5 8.5 8.5 0 1 0 20.5 14.5Z"></path></svg>
+    </button>
+  </div>
+
+  <!-- Deskripsi Halaman  -->
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="hero-note">Semester ini, semua tugas ada di satu tempat.</p>
+        <h1>Arsip tugas/project kuliah</h1>
+        <p class="lead">Kumpulan tugas, project, dan laporan yang sudah kukerjakan. Buka daftar tugas untuk membaca hasilnya satu per satu.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="tugas.html">Lihat daftar tugas</a>
+          <a class="btn btn-ghost" href="tentang.html">Kenal lebih dekat</a>
+        </div>
+      </div>
+
+      <!-- Card Halaman -->
+      <aside class="ledger" aria-label="Ringkasan tugas">
+        <h2>Tugas/Project Mendatang</h2>
+        <ul>
+          <li><span>Tugas Akhir Jaringan Komputer</span></li>
+          <li><span>Tugas Akhir Pemrogaman WEB</span></li>
+          <!-- contoh link ke halaman lain:
+          <li><span class="mk done"></span><a href="tugas/prototipe-produk.html">prototipe-produk</a><em>Selesai</em></li>  -->
+        </ul>
+      </aside>
+    </section>
+
+    <!-- Tugas terbaru -->
+    <section class="section" id="terbaru">
+      <h2>Tugas terbaru</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Prototipe Produk</h3>
+          <p>Ide prototipe produk fungsional yang dapat dikembangkan di masa depan.</p>
+          <a class="link" href="tugas/prototipe-produk.html">Baca tugas</a>
+        </article>
+        <!-- <article class="card">
+          <h3>Riset Jurnal</h3>
+          <p>Telaah beberapa jurnal ilmiah: masalah, metode, dan kesimpulan tiap penelitian.</p>
+          <a class="link" href="tugas/riset-jurnal.html">Baca tugas</a>
+        </article> -->
+        <article class="card card-empty">
+          <h3>Tugas lainnya</h3>
+          <p>Tugas baru akan muncul di sini setelah ditambahkan ke halaman daftar tugas.</p>
+          <a class="link" href="tugas.html">Buka daftar tugas</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Joove Mortimer Ssenyonga.</p>
+  </footer>
+
+  <script src="js/theme.js"></script>
+</body>
+</html>
