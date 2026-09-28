@@ -1,4 +1,4 @@
-# Jov Academic
+# Joove Report
 
 Website statis berisi kumpulan tugas kuliah, dibuat dengan HTML dan CSS. Setiap tugas punya halaman detail sendiri, termasuk tugas prototipe produk yang memuat gambar prototipe dan penjelasan cara kerjanya.
 
